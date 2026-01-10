@@ -107,7 +107,7 @@ export function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-3 border-t border-primary-foreground/10">
               <p>© 2025 Pak-Iran Ferry Services. A Government of Pakistan Initiative.</p>
               <div className="flex gap-6">
-                <a href="#" className="hover:underline">Privacy Policy</a>
+                <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
                 <a href="#" className="hover:underline">Terms of Service</a>
                 <a href="#" className="hover:underline">Accessibility</a>
               </div>
