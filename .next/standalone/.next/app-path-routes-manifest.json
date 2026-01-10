@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/faq/page": "/faq",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/fares/page": "/fares",
+  "/route/page": "/route",
+  "/services/page": "/services",
+  "/schedule/page": "/schedule",
+  "/resources/page": "/resources",
+  "/travel-guide/page": "/travel-guide",
+  "/visa-guide/page": "/visa-guide",
+  "/page": "/"
+}
