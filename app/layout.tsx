@@ -10,6 +10,23 @@ export const metadata: Metadata = {
   verification: {
     google: 'vBgj1fWAs9Mhi69Lniw-vGmoXfe6WZETMpCe1g-5cc8',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/icon.png', type: 'image/png', sizes: '16x16' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/safari-pinned-tab.svg',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: 'Pak-Iran Ferry | Maritime Services',
     description: 'Connecting Pakistan and Iran across the Arabian Sea. Comfortable, reliable ferry services between Karachi and Chabahar.',
