@@ -12,17 +12,16 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
-      { url: '/icon.png', type: 'image/png', sizes: '16x16' },
+      { url: '/icon.png', type: 'image/png' },
+      { url: '/pakiranferry.png', sizes: 'any', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/apple-icon.png', type: 'image/png' },
     ],
     other: [
       {
         rel: 'mask-icon',
-        url: '/safari-pinned-tab.svg',
+        url: '/pakiranferry.png',
       },
     ],
   },
@@ -31,12 +30,12 @@ export const metadata: Metadata = {
     title: 'Pak-Iran Ferry | Maritime Services',
     description: 'Connecting Pakistan and Iran across the Arabian Sea. Comfortable, reliable ferry services between Karachi and Chabahar.',
     type: 'website',
-    images: ['https://lovable.dev/opengraph-image-p98pqg.png'],
+    images: ['/pakiranferry.png'],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@PakIranFerry',
-    images: ['https://lovable.dev/opengraph-image-p98pqg.png'],
+    images: ['/pakiranferry.png'],
   },
   themeColor: '#0c4a6e',
 }
