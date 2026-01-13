@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Calendar, ArrowRight, Newspaper } from 'lucide-react'
-import { getLatestUpdates, type Update } from '@/data/updates'
+import { getLatestUpdates } from '@/data/updates'
 
 const categoryIcons = {
   news: Newspaper,
