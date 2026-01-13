@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { FileText, CheckCircle, AlertTriangle, Ship, Luggage, Heart, Smartphone, Building2, Phone, ExternalLink, ArrowRight } from 'lucide-react'
+import { FileText, CheckCircle, AlertTriangle, Ship, Luggage, Heart, Smartphone, Building2, ExternalLink, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Travel Guide: Karachi to Chabahar Ferry | Pakistan Iran Ferry',

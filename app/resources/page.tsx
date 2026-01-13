@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { ExternalLink, Building, Globe, FileText, Phone } from 'lucide-react'
+import { ExternalLink, Building, Globe, FileText } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Resources & Links | Pakistan Iran Ferry',

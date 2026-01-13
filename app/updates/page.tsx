@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { Calendar, Tag, ArrowRight, Newspaper, Megaphone, Bell, TrendingUp } from 'lucide-react'
-import { updates, getUpdatesByCategory, type Update } from '@/data/updates'
+import { Calendar, ArrowRight, Newspaper, Megaphone, Bell, TrendingUp } from 'lucide-react'
+import { updates, getUpdatesByCategory } from '@/data/updates'
 
 export const metadata: Metadata = {
   title: 'News & Updates | Pakistan Iran Ferry Service',

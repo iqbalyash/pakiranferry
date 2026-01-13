@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { MapPin, Clock, Ship, Anchor, ArrowRight } from 'lucide-react'
+import { MapPin, Anchor, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import karachiPort from '@/assets/karachi-port.jpg'
 import chabaharPort from '@/assets/chabahar-port.jpg'
@@ -53,7 +53,7 @@ export default function RoutePage() {
                   </div>
                   <h4 className="font-bold text-foreground mb-2">Karachi Port, Pakistan</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Pakistan's largest and busiest seaport, located on the coast of the Arabian Sea. 
+                    Pakistan&apos;s largest and busiest seaport, located on the coast of the Arabian Sea. 
                     The ferry terminal is situated at the West Wharf area of Karachi Port.
                   </p>
                   <p className="text-sm text-muted-foreground mt-3">
@@ -70,7 +70,7 @@ export default function RoutePage() {
                   </div>
                   <h4 className="font-bold text-foreground mb-2">Chabahar Port, Iran</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">
-                    Iran's only oceanic port, located in the Sistan-Baluchestan Province on the Gulf 
+                    Iran&apos;s only oceanic port, located in the Sistan-Baluchestan Province on the Gulf 
                     of Oman. A strategic free trade zone with modern port facilities.
                   </p>
                   <p className="text-sm text-muted-foreground mt-3">

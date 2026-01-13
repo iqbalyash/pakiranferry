@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { Calendar, Tag, ArrowLeft, Newspaper, Megaphone, Bell, TrendingUp } from 'lucide-react'
+import { Calendar, ArrowLeft, Newspaper, Megaphone, TrendingUp } from 'lucide-react'
 import { updates } from '@/data/updates'
 
 const categoryIcons = {
