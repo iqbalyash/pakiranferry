@@ -35,8 +35,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const update = updates.find((u) => u.id === params.id)
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  const update = updates.find((u) => u.id === id)
 
   if (!update) {
     return {
@@ -59,8 +60,9 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   }
 }
 
-export default function UpdateDetailPage({ params }: { params: { id: string } }) {
-  const update = updates.find((u) => u.id === params.id)
+export default async function UpdateDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const update = updates.find((u) => u.id === id)
 
   if (!update) {
     notFound()
