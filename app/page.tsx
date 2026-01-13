@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { UpdatesSection } from '@/components/UpdatesSection'
 import { Ship, MapPin, Clock, CreditCard, Calendar, AlertTriangle, Info, Anchor, FileText } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import heroFerry from '@/assets/hero-ferry.jpg'
@@ -342,6 +343,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Latest News & Updates Section */}
+        <UpdatesSection />
 
         {/* Quick Links */}
         <section className="py-12 bg-secondary border-t border-border">

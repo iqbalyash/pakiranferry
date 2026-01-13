@@ -14,6 +14,7 @@ const navLinks = [
   { href: "/schedule", label: "Schedule" },
   { href: "/fares", label: "Fares" },
   { href: "/services", label: "Services" },
+  { href: "/updates", label: "News & Updates" },
   { href: "/travel-guide", label: "Travel Guide" },
   { href: "/visa-guide", label: "Visa Guide" },
   { href: "/resources", label: "Resources" },
