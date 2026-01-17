@@ -8,10 +8,13 @@ const nextConfig: NextConfig = {
         hostname: 'lovable.dev',
       },
     ],
-    unoptimized: false,
+    // Cloudflare Pages requires unoptimized images for static export
+    unoptimized: true,
   },
-  // Enable SSR for all pages
-  output: 'standalone',
+  // Static export for Cloudflare Pages
+  output: 'export',
+  // Disable trailing slash for cleaner URLs
+  trailingSlash: false,
 }
 
 export default nextConfig
