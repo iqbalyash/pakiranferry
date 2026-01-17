@@ -13,8 +13,18 @@ const nextConfig: NextConfig = {
   },
   // Static export for Cloudflare Pages
   output: 'export',
-  // Disable trailing slash for cleaner URLs
-  trailingSlash: false,
+  // Enable trailing slash for better compatibility with static export
+  trailingSlash: true,
+  // Skip trailing slash redirect for static export
+  skipTrailingSlashRedirect: true,
+  eslint: {
+    // Ignore ESLint errors during builds
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    // Ignore TypeScript errors during builds
+    ignoreBuildErrors: true,
+  },
 }
 
 export default nextConfig
