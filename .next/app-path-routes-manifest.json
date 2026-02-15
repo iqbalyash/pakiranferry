@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/faq/page": "/faq",
+  "/contact/page": "/contact",
+  "/fares/page": "/fares",
+  "/resources/page": "/resources",
+  "/page": "/",
+  "/services/page": "/services",
+  "/privacy-policy/page": "/privacy-policy",
+  "/route/page": "/route",
+  "/updates/[id]/page": "/updates/[id]",
+  "/travel-guide/page": "/travel-guide",
+  "/visa-guide/page": "/visa-guide",
+  "/schedule/page": "/schedule",
+  "/about/page": "/about",
+  "/updates/page": "/updates"
+}
